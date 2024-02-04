@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  padding: 10;
+  margin: 10;
+}
+h1 {color: blueviolet;
+
+}
+.screen {
+  background: url(./essets/background.jpg) no-repeat fixed center/cover;
+}
