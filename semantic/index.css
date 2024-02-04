@@ -9,3 +9,13 @@ h1 {color: blueviolet;
 .screen {
   background: url(./essets/background.jpg) no-repeat fixed center/cover;
 }
+a:link {
+  color: rgb(201, 98, 115);
+}
+
+a:visited {
+  color: green;
+}
+nav {
+  text-align: right;
+}
