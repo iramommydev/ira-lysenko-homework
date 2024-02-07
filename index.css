@@ -1,9 +1,15 @@
-*{
-  box-sizing: border-box;
-body{
-  color: red;
-}}
-background-color: rgb(148, 167, 111);
+body {
+  background-color: rgb(121, 145, 80);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 50px;
+  font-size: 16px;
+}
 h1 {
-  color: sienna;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(87, 36, 36);
+}
+.sublist {
+  margin-left: 55px;
 }

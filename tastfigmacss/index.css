@@ -1,0 +1,34 @@
+.block {
+height: 100px;
+width: 100px;
+}
+.block-red {
+background-color: red;
+}
+.block-green {
+  background-color: #0f0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.block-blue {
+  background-color: blue;
+}
+.block-gray {
+  border-radius: 50%;
+  background-color: gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.app {
+  margin: 10px auto auto 40px;
+  width: 510px;
+}
+.info-text-first, .info-text-second, .info-text-third {
+  margin-bottom: 30px;
+}
+.info-text-second {
+  margin-top: 50px;
+}
+.wrapper-info-text {
+  margin-left: 20px;
+}
