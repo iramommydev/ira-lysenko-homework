@@ -1,84 +1,101 @@
-.app {
-  width: 793px;
+/* general */
+body {
+  /* width: 100%; */
   font-family: Roboto;
+  font-size: 16px;
+  background-color: #3b3f45;
+  /* min-height: 100vh; */
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
 }
 
 .header {
-  color: #FF8984;
-  background-color: #4A4F56;
+  color: #ff8984;
+  background-color: #4a4f56;
   text-align: center;
-padding: 19px 0 12px;
-
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .title {
-font-size: 24px;
-line-height: 28px;
-margin-bottom: 4px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
-
-.subtitle {
-  font-size: 16px;
-  line-height: 19px;
-}
-
-.content-list {
-  background-color: #3B3F45;
+/* list */
+.list {
   font-size: 18px;
-  padding: 10px 130px 20px;
-  border-bottom: #FF8984;
+  max-width: 530px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .list-item {
+  background-color: #88839e;
+}
+
+.list-item:nth-child(2n) {
+  background-color: #7a7593;
+}
+
+.list-label {
+  display: block;
+  padding: 10px;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+/* .list-label {
   background-color: #9B96AC;
-  color: #FFFFFF;
-  padding: 11px 12px 13px;
   transition: background-color 0.35s ease-in;
-  box-shadow: 0px 4px 4px 0px #00000040;
-}
+} */
 
-.list-item:hover {
-  background-color: #625E77;
+.list-label:hover {
+  border-color: #ffffff;
+  background-color: #625e77;
 }
-
-.list-item:first-child {
-  margin-top: 15px;
-}
-.list-item:active {
-  border-width: 3px 0 3px;
-  border-style: solid;
-  border-color: #FFFFFF;
-}
-
-.item>span {
+.item > span {
   font-size: 11px;
 }
 
-.checkbox:checked + span {
+.list-checkbox:checked + span {
   text-decoration: line-through;
-  color: #9B96AC;
 }
 
-input {
-  background-color: #FFFFFF;
-}
-.list-item:has(.checkbox:checked){  
-  background-color: #7A7593;
-}
-
+/* bottom */
 #not-item {
-  color: #FF8984;
+  color: #ff8984;
   font-size: 18px;
-  background-color: #4A4F56;
+  background-color: #4a4f56;
   text-align: center;
   padding: 11px 12px 13px;
   margin-top: 45px;
-  margin-bottom: 45px;
 }
 
 #not-item::after {
   content: " :)";
 }
 
+/* navigation */
+a:link {
+  color: #ff8984;
+}
+a:visited {
+  color: #00ff00;
+}
 
-
+.button {
+  color: #ff8984;
+  font-size: 18px;
+  background-color: #4a4f56;
+  text-align: center;
+  padding: 11px 12px 13px;
+  margin-top: 45px;
+  width: 530px;
+  margin: 45px auto;
+  display: block;
+}
