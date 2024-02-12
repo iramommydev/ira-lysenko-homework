@@ -4,12 +4,82 @@ ul {
 
 body {
   font-size: 18px;
-  background-color: ;
+  text-align: center;
+  /* width: 100%; */
 }
 
+img {
+  width: 100%;
+}
+
+nav {
+  text-align: left;
+}
 .wrapper {
-  max-width: 970px;
+  max-width: 1000px;
   padding-left: 15px;
   padding-right:15px;
   margin: 0; auto
 }
+
+.header-wrapper {
+text-align: center;
+border-bottom: 1px solid #828282 ;
+padding-top: 
+}
+
+.header-list {
+justify-content: center;
+align-items: center;
+display: flex;
+gap: 20px
+}
+
+h1 {
+  text-align: left;
+}
+.about {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.product-list {
+display: flex;
+justify-content: space-between;
+margin-right: 95px;
+}
+
+.product-list:last-child {
+margin-right:0px
+}
+
+.product-list img {
+  max-width: 170px;;
+}
+
+/* buttom */
+.email-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #070707;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 22px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+    }
+  
+  .icons {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 300px;
+  padding-left: 300px;
+  padding-top: 40px;
+    }
+  .icons:last-child {
+    margin-right: 0;
+    }
+  .icons img {
+    max-width: 40px;
+    margin-right: 40px;
+  }

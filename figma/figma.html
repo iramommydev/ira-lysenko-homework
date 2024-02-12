@@ -3,24 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=div, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Denis Novik Figma</title>
+    <!--Styles-->
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="./figma.css" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <div class="app">
+      <nav><a href="../index.html">Homepage</a></nav>
       <header class="header">
-        <div class="wrapper">
-          <span>LOGO</span>
-          <nav>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About me</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contacts</a></li>
-            </ul>
-          </nav>
+        <div class="wrapper header-wrapper">
+          <!--navigation-->
+          <ul class="header-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
         </div>
       </header>
+      <main class="wrapper">
+        <!--Baner-->
+        <div class="wrapper baner-wrapper">
+          <h1>Denis Novik</h1>
+          <img src="./images/photox940.jpg" alt="photo" />
+        </div>
+        <div class="wrapper about-wrapper">
+          <!--About block-->
+          <h3>About me</h3>
+          <p class="about">
+            Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design
+            and everything connected with it. I'm studying at courses "Web and
+            mobile design interfaces" in IT-Academy. Ready to implement
+            excellent projects with wonderful people.
+          </p>
+        </div>
+        <!--Skills block-->
+        <div class="wrapper skills-wrapper">
+          <h3>Skills</h3>
+          <p>I work in such programs as</p>
+          <div class="product-list">
+            <img src="./images/Ps.svg" alt="Ps" />
+            <img src="./images/Ai.svg" alt="Ai" />
+            <img src="./images/AF.svg" alt="AF" />
+            <img src="./images/Figma.svg" alt="Figma" />
+          </div>
+        </div>
+        <!--Portfolio block-->
+        <div class="wrapper portfolio-wrapper">
+          <h3>Portfolio</h3>
+          <div>
+            <img src="./images/Fashion-Store.jpg" alt="fasion store" />
+            <p>Online fashion store - Homepage</p>
+          </div>
+          <div>
+            <img src="./images/Reebok-Store.jpg" alt="reebok" />
+            <p>Reebok Store - Concept</p>
+          </div>
+          <div>
+            <img src="./images/Braun-Landing-Page.jpg" alt="braun" />
+            <p>Braun Landing Page - Concept</p>
+          </div>
+        </div>
+      </main>
+      <footer class="wrapper footer-wrapper">
+        <h3>Contacts</h3>
+        <p>Want to know more or just chat? <br />You are welcome!</p>
+        <!--button-->
+        <a href="mailto:youremail@example.com" class="email-button"
+          >Send message</a
+        >
+        <!--Social-group-->
+        <div class="icons">
+          <a href="#"><img src="./images/linkedin.svg" alt="LinkedIn" /></a>
+          <a href=""><img src="./images/Inst.svg" alt="Instagram" /></a>
+          <a href=""><img src="./images/behance.svg" alt="Behance" /></a>
+          <a href=""><img src="./images/Vector (1).svg" alt="Dribble" /></a>
+        </div>
+        <p>
+          Like me on <br />
+          LinkedIn, Instagram, Behance, Dribble
+        </p>
+      </footer>
     </div>
   </body>
 </html>
