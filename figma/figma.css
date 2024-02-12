@@ -1,3 +1,9 @@
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+
 ul {
   list-style: none;
 }
@@ -6,10 +12,13 @@ body {
   font-size: 18px;
   text-align: center;
   /* width: 100%; */
+  margin-left: 230px;
+  margin-right: 230px
 }
 
 img {
   width: 100%;
+  text-align: center;
 }
 
 nav {
@@ -20,12 +29,13 @@ nav {
   padding-left: 15px;
   padding-right:15px;
   margin: 0; auto
-}
+  /* margin-left: 230px;
+  margin-right: 230px */
+ }
 
 .header-wrapper {
 text-align: center;
-border-bottom: 1px solid #828282 ;
-padding-top: 
+border-bottom: 1px solid #828282;
 }
 
 .header-list {
@@ -38,15 +48,23 @@ gap: 20px
 h1 {
   text-align: left;
 }
+
 .about {
   margin: 0 auto;
   max-width: 400px;
 }
 
+.block-header {
+  padding-top: 100px;
+}
+
+/* SVG pictures */
 .product-list {
 display: flex;
 justify-content: space-between;
 margin-right: 95px;
+margin-top: 50px;
+margin-bottom: 100px;
 }
 
 .product-list:last-child {
@@ -67,8 +85,10 @@ margin-right:0px
   border-radius: 22px;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  margin-bottom: 60px;
     }
-  
+
+  /* icons sm */
   .icons {
   display: flex;
   justify-content: space-between;
@@ -79,6 +99,7 @@ margin-right:0px
   .icons:last-child {
     margin-right: 0;
     }
+    
   .icons img {
     max-width: 40px;
     margin-right: 40px;
