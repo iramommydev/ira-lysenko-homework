@@ -1,0 +1,33 @@
+body {
+
+}
+.header {
+  min-height: 80px;
+  border-bottom: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+.header-wrapper {
+display: flex;
+justify-content: space-between;
+/* padding-top: 15px;
+padding-bottom: 15px; */
+}
+
+/* navigation */
+.navigation-list {
+display: contents;
+align-items: center;
+/* gap: 20px;
+} */
+
+/* button */
+.button {
+  justify-content: center;
+  align-items: center;
+  padding-right: 25px;
+  padding-left: 25px;
+  border: 1px;
+  border-color: ;
+  height: 45px;
+}
