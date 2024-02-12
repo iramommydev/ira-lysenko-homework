@@ -42,9 +42,9 @@ display: flex;
 gap: 20px
 }
 
-/* h1 {
- text-align: ;
-} */
+h1 {
+ text-align: left;
+}
 
 .about {
   margin: 0 auto;
