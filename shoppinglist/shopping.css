@@ -1,10 +1,10 @@
 /* general */
 body {
-  width: 100%;
+  /* width: 100%; */
   font-family: Roboto;
   font-size: 16px;
   background-color: #3b3f45;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   color: #ffffff;
   margin: 0;
 }
@@ -37,7 +37,7 @@ ul {
 
 .list-item {
   background-color: #88839e;
-}
+ }
 
 .list-item:nth-child(2n) {
   background-color: #7a7593;
@@ -95,8 +95,8 @@ a:visited {
   background-color: #4a4f56;
   text-align: center;
   padding: 11px 12px 13px;
-  margin-top: 45px;
-  width: 530px;
+  /* margin-top: 45px; */
+  width: 100%;
   margin: 45px auto;
   display: block;
 }
