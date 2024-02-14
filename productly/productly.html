@@ -1,40 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Productly</title>
-  <!-- Fonts -->
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <!-- Styles -->
-<link rel="stylesheet" href="../styles/normalize.css">
-<link rel="stylesheet" href="../styles/main.css">
-<link rel="stylesheet" href="./variables.css">
-<link rel="stylesheet" href="./productly.css">
-  <!-- Favicon -->
-</head>
-<body>
-  <div class="app">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productly</title>
+    <!-- Fonts -->
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <!-- header -->
-    <header class="header">
-<div class="wrapper header-wrapper">
- <a href="/"></a> <img src="./assets/Logo.png" alt="logo">
-
-<div>navigation</div>
-<div class="header-buttons">
-  <button>
-
-  </button>
-</div>
-</div>
-    </header>
-    <!-- Banner -->
-    <main class="banner">
-      <div class="wrapper banner-wrapper">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./variables.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./productly.css" />
+  </head>
+  <body>
+    <div class="app"> 
+      <nav><a href="../index.html">Homepage</a></nav> 
+      <!-- header -->
+      <header class="header">
         
-      </div>
-    </main>
-  </div>
-</body>
+        <div class="wrapper header-wrapper">
+        
+         <!-- logo -->
+          <a class="logo" href="/"
+            ><img src="./assets/logo.png" alt="logo"
+          /></a>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#" class="link nav-link">Product</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="link nav-link">Customers</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="link nav-link">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="link nav-link">Resources</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-buttons">
+            <button type="button" class="button button--white">
+              <span>Sign In</span>
+            </button>
+            <button type="button" class="button">
+              <span>Sign Up</span>
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- Banner -->
+      <main class="banner">
+        <div class="wrapper banner-wrapper">
+          <div class="banner-content">
+            <h1>The Design Thinking superpowers</h1>
+            <p class="banner-text">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <button type="button" class="button button--big banner-button">
+              <span>Get started</span>
+            </button>
+          </div>
+          <div class="banner-img">
+            <img src="./assets/Image.svg" alt="banner image" />
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>

@@ -1,8 +1,19 @@
 :root {
   /* colors */
   --c-primary: #FF9900;
+  --c-white: #FFFFFF;
+  --c-black: #2F281E;
+  --c-brown: #544837;
+  --c-border: #BCD0E5;
+
 /* fonts */
---F-base: 'Montserrat', 'Poppins', sans-serif;
---F-poppins: 'Poppins', sans-serif;
---fs-
+--f-base: 'Montserrat', sans-serif;
+--f-poppins: 'Poppins', sans-serif;
+
+/* font sizes */
+
+--fs-base: 16px;
+
+/* height */
+--h-header: 80px;
 }

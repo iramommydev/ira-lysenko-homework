@@ -1,33 +1,112 @@
-body {
-
-}
+/* header */
 .header {
-  min-height: 80px;
-  border-bottom: 1px solid red;
+  min-height: var(--h-header);
   display: flex;
   align-items: center;
 }
+
 .header-wrapper {
-display: flex;
-justify-content: space-between;
-/* padding-top: 15px;
-padding-bottom: 15px; */
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.header-buttons {
+  align-items: center;
+  gap: 30px;
+  display: flex;
+}
+
+/* logo */
+.logo {
+  max-width: 200px;
+  width: 100%;
+  display: flex;
+  height: fit-content;
 }
 
 /* navigation */
-.navigation-list {
-display: contents;
-align-items: center;
-/* gap: 20px;
-} */
+.nav-list {
+  display: flex;
+  align-items: center;
+  /* gap: 20px;*/
+}
 
+.nav-link {
+  padding: 10px;
+  display: flex;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.nav-list .nav-item:first-child .nav-link {
+  color: var(--c-primary);
+}
+.nav-list .nav-item:first-child .nav-link:hover {
+  color: var(--c-black);
+}
 /* button */
 .button {
   justify-content: center;
   align-items: center;
   padding-right: 25px;
   padding-left: 25px;
-  border: 1px;
-  border-color: ;
+  border: 1px solid var(--c-primary);
+  background-color: var(--c-primary);
   height: 45px;
+  display: flex;
+  border-radius: 4px;
+  color: var(--c-white);
+  cursor: pointer;
+  font-weight: 600;
+  transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+button:hover {
+  border-color: var(--c-black);
+  color: var(--c-white);
+  background-color: var(--c-black);
+}
+
+.button--white {
+  background-color: var(--c-white);
+  color: var(--c-black);
+  border-color: var(--c-border);
+}
+
+.button--big {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* banner */
+.banner {
+  min-height: calc(100vh - var(--h-header));
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.banner-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+.banner-content {
+  max-width: 500px;
+  width: 100%;
+  
+}
+.banner-img {
+  width: 100%;
+  display: flex;
+}
+
+.banner-text {
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.banner-button {
+  margin-top: 20px;
 }
