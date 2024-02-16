@@ -1,16 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Forecast</title>
-  <!-- favicon -->
-
-  <!-- fonts -->
-  <!-- styles -->
-  
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forecast</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="./font/weathericons-regular-webfont.svg" />
+    <!-- styles -->
+    <link rel="stylesheet" href="./variable.css" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./styles/weather-icons.min.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <!-- homepage -->
+        <nav>
+          <a href="../index.html">Homepage</a>
+        </nav>
+      </header>
+      <div class="main">
+        <!-- header -->
+        <p class="header">CSS Weather Forecast <i class="wi wi-sunset"></i></p>
+        <!-- blocks -->
+        <div class="blocks">
+          <ul class="block-list">
+            <li class="block-item">
+              <div class="city">Lisbon</div>
+              <div class="weathet-info">
+                <span>21&deg;C </span><i class="wi wi-day-sunny"></i>
+              </div>
+            </li>
+            <li class="block-item">
+              <div class="city">Paris</div>
+              <div class="weather-info"></div>
+              <span>11&deg;C </span><i class="wi wi-night-rain-mix"></i>
+            </li>
+            <li class="block-item">
+              <div class="city">Belgrade</div>
+              <div class="weather-info">
+                <span>15&deg;C </span><i class="wi wi-day-cloudy"></i>
+              </div>
+            </li>
+            <li class="block-item">
+              <div class="city">Venice</div>
+              <div class="weather-info">
+                <span>21&deg;C </span><i class="wi wi-day-cloudy-high"></i>
+              </div>
+            </li>
+            <li class="block-item">
+              <div class="city">Tel-Avive</div>
+              <div class="weather-info">
+                <span>32&deg;C </span><i class="wi wi-hot"></i>
+              </div>
+            </li>
+            <li class="block-item">
+              <div class="city">Cair</div>
+              <div class="weather-info">
+                <span>21&deg;C </span><i class="wi wi-day-sunny"></i>
+              </div>
+            </li>
+            <li class="block-item">
+              <div class="city">New-York</div>
+              <div class="weather-info">
+                <span>17&deg;C </span><i class="wi wi-day-sleet-storm"></i>
+              </div>
+            </li>
+            <li class="block-item">
+              <div class="city">New-Delhi</div>
+              <div class="weather-info">
+                <span>17&deg;C </span><i class="wi wi-day-rain-wind"></i>
+              </div>
+            </li>
+            <li class="block-item">
+              <div class="city">San-Francisco</div>
+              <div class="weather-info">
+                <span>15&deg;C </span><i class="wi wi-day-sunny-overcast"></i>
+              </div>
+            </li>
+            <li class="block-item">
+              <div class="city">Tokyo</div>
+              <div class="weather-info">
+                <span>8&deg;C</span><i class="wi wi-night-clear"></i>
+              </div>
+            </li>
+            <li class="block-item">
+              <div class="city">Sydney</div>
+              <div class="weather-info">
+                <span>25&deg;C </span><i class="wi wi-night-partly-cloudy"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <p class="footer">
+          Have a nice day and don't forget umbrella if you are in New Delhi now!
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>

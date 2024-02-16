@@ -1,0 +1,21 @@
+:root {
+  /* color */
+--c-background: #3399CC;
+--c-blue: #71b8db;
+--c-marine:#33CCCC;
+--c-purpur: #996699;
+--c-teracote:#C24747;
+--c-orange:#E2674A;
+--c-yellow:#FFCC66;
+--c-lightgreen: #99CC99;
+--c-grey:#669999;
+--c-pink:#CC6699;
+--c-green:#339966;
+--c-violet:#666699;
+--c-font:#FFFFFF;
+
+/* fonts */
+--f-base:'Lucida Sans Unicode';
+/* font-size */
+--fs-base: 22px;
+}

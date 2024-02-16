@@ -1,0 +1,86 @@
+/* header */
+.header {
+  font-size: 21px;
+  margin-left: 135px;
+  margin-top: 65px;
+}
+.header i {
+  font-size: 27px;
+}
+/* block */
+.blocks {
+  margin-left: 135px;
+  margin-right: 135px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  opacity: 70%;
+}
+.block-list .block-item {
+  display: inline-block;
+  border: 2px solid var(--c-font);
+  font-size: var(--fs-base);
+  width: 25%;
+  height: 147px;
+  text-align: center;
+  padding-top: 25px;
+  /* line-height: 25px; */
+}
+/* text position */
+.block-item .city {
+  display: block;
+  line-height: 25px;
+}
+.block-item .weather-info {
+  display: block;
+  line-height: 25px;
+}
+/* colors */
+.block-item:first-child {
+  width: 50%;
+  background-color: var(--c-blue);
+}
+.block-item:last-child {
+  width: 100%;
+  background-color: var(--c-violet);
+}
+.block-item:nth-child(9) {
+  width: 50%;
+  background-color: var(--c-pink);
+}
+.block-item:nth-child(2) {
+  background-color: var(--c-marine);
+}
+.block-item:nth-child(3) {
+  background-color: var(--c-purpur);
+}
+.block-item:nth-child(4) {
+  background-color: var(--c-teracote);
+}
+.block-item:nth-child(5) {
+  background-color: var(--c-orange);
+}
+.block-item:nth-child(6) {
+  background-color: var(--c-yellow);
+}
+.block-item:nth-child(7) {
+  background-color: var(--c-lightgreen);
+}
+.block-item:nth-child(8) {
+  background-color: var(--c-grey);
+}
+.block-item:nth-child(10) {
+  background-color: var(--c-green);
+}
+i {
+  font-size: 42px;
+  padding: 6px;
+  padding-top: 10px;
+  }
+.footer {
+  font-size: 16px;
+  margin-left: 135px;
+}
+/* cursor */
+.block-item:hover {
+  cursor: url(./assets/cursor.png), auto;
+ }

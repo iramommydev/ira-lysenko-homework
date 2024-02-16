@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* *::selection {
+  background-color: var(--c-background);
+  color: var(--c-font);
+} */
+
+body {
+  font-family: var(--f-base);
+  font-size: var(--fs-base);
+  min-height: 100vh;
+  background-color: var(--c-background);
+  color: var(--c-font);
+}
+
+ul {
+  list-style: none;
+  border: 2px solid var(--c-font);
+  font-size: 0
+}
