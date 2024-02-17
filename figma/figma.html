@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=div, initial-scale=1.0" />
     <title>Denis Novik Figma</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <!--Styles-->
-    <link rel="stylesheet" href="../styles/normalize.css" />
-    <link rel="stylesheet" href="../styles/main.css" />
-    <link rel="stylesheet" href="./figma.css" />
+   <link rel="stylesheet" href="./normalize.css">
+   <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="./figma.css">
     <!--Favicon-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
@@ -28,20 +32,24 @@
       </header>
       <main>
         <!--Baner-->
+        <div class=banner> 
         <div class="wrapper baner-wrapper">
           <h1>Denis Novik</h1>
           <img src="./images/photox940.jpg" alt="photo" />
         </div>
+      </div> 
+       <!--About block-->
+       <div class="intro">
         <div class="wrapper about-wrapper">
-          <!--About block-->
-          <h3 class="block-header">About me</h3 class="block-header">
-          <p class="about">
-            Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design
-            and everything connected with it. I'm studying at courses "Web and
-            mobile design interfaces" in IT-Academy. Ready to implement
-            excellent projects with wonderful people.
-          </p>
+         <h3 class="block-header">About me</h3 class="block-header">
+          <div class="about">
+            <div class="paragraph">Hi, I'm Denis – UX/UI designer from Minsk.
+            I'm interested in design and everything connected with it.</div>
+             <div class="paragraph">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</div> 
+            <div class="paragraph">Ready to implement excellent projects with wonderful people.</div>
+          </div>
         </div>
+      </div>
         <!--Skills block-->
         <div class="wrapper skills-wrapper">
           <h3 class="block-header">Skills</h3 class="block-header">
@@ -54,29 +62,32 @@
           </div>
         </div>
         <!--Portfolio block-->
+        <div class="portfolio">
         <div class="wrapper portfolio-wrapper">
           <h3 class="block-header">Portfolio</h3 class="block-header">
           <div>
             <img src="./images/Fashion-Store.jpg" alt="fasion store" />
-            <p>Online fashion store - Homepage</p>
+            <p class="discription">Online fashion store - Homepage</p>
           </div>
           <div>
-            <img src="./images/Reebok-Store.jpg" alt="reebok" />
-            <p>Reebok Store - Concept</p>
+            <img src="./images/reebok_web.jpg" alt="reebok" />
+            <!-- <p>Reebok Store - Concept</p> -->
+            <p class="discription">Reebok Store - Concept</p>
           </div>
           <div>
-            <img src="./images/Braun-Landing-Page.jpg" alt="braun" />
-            <p>Braun Landing Page - Concept</p>
+            <img src="./images/braun-landing.jpg" alt="braun" />
+            <!-- <p>Braun Landing Page - Concept</p> -->
+            <p class="discription">Braun Landing Page - Concept</p>
           </div>
         </div>
+      </div>
       </main>
       <footer class="wrapper footer-wrapper">
         <h3 class="block-header">Contacts</h3 class="block-header">
         <p>Want to know more or just chat? <br />You are welcome!</p>
         <!--button-->
         <a href="mailto:youremail@example.com" class="email-button"
-          >Send message</a
-        >
+          >Send message</a>
         <!--Social-group-->
         <div class="icons">
           <a href="#"><img src="./images/linkedin.svg" alt="LinkedIn" /></a>
@@ -84,7 +95,7 @@
           <a href=""><img src="./images/behance.svg" alt="Behance" /></a>
           <a href=""><img src="./images/Vector (1).svg" alt="Dribble" /></a>
         </div>
-        <p>
+        <p class="footer">
           Like me on <br />
           LinkedIn, Instagram, Behance, Dribble
         </p>
