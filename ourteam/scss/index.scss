@@ -1,0 +1,66 @@
+@import "./normalize";
+@import "./variables.scss";
+@import "./main.scss";
+
+.container {
+  margin-left: 135px;
+  margin-right: 135px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: block;
+  font-family: var(--f-base);
+  color: var(--c-base);
+}
+.header {
+  // text-align: center;
+  text-transform: uppercase;
+}
+h1 {
+  font-family: var(--f-second);
+  font-size: 60px;
+  color: #ffcc00; 
+  line-height: 66px;
+}
+
+h3 {
+    color: #898f8f;
+    font-size: 18px;
+    list-style: 24px;
+    padding-bottom: 15px;
+  }
+  .divider {
+    display: flex;
+    align-items: center;
+  }
+  .bonfire-sharp {
+    width: 20px;
+  }
+.content {
+  max-width: 1030px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.photo {
+  display: inline-block;
+  width: 50%;
+}
+.info {
+  width: 50%;
+  text-align: center;
+}
+.info-header {
+  text-align: center;
+}
+.info-header .line {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.icons {
+  width: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
