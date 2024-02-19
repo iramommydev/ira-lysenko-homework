@@ -1,0 +1,26 @@
+body {
+  background-color: red;
+}
+.line {
+  width: 600px;
+  height: 3px;
+ background-color: #F1F1F1;
+}
+.circle-big {
+width: 300px;
+height: 300px;
+border-radius: 50%;
+border: 12px;
+border-color: #480E63;
+background-color: #F1F1F1;
+position: relative;
+}
+.circle-middle {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 12px;
+border-color: #480E63;
+background-color: #290148;
+position: absolute;
+}
