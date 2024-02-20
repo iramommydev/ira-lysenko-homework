@@ -1,0 +1,18 @@
+.dotted {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 20px;
+
+  &-first-space,
+  &-third-space {
+  width: 10px;
+  height: 4px;
+  background-color: #ffcc00;
+}
+  &-second-space {
+  width: 20px;
+  height: 4px;
+  background-color: #ffcc00;
+}
+}
