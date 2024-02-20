@@ -1,0 +1,33 @@
+.corner {
+  width: 100px;
+  height: 100px;
+
+  &.top-left {
+    top: 0;
+    left: 0;
+    border-left: 1px solid #fc0;
+    border-top: 1px solid #fc0;
+    position: absolute;
+  }
+  &.top-right {
+    top: 0;
+    right: 0;
+    border-top: 1px solid #fc0;
+    border-right: 1px solid #fc0;
+    position: absolute;
+  }
+  &.bottom-right {
+    bottom: 0;
+    right: 0;
+    border-bottom: 1px solid #fc0;
+    border-right: 1px solid #fc0;
+    position: absolute;
+  }
+  &.bottom-left {
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #fc0;
+    border-left: 1px solid #fc0;
+    position: absolute;
+  }
+}
