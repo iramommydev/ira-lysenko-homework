@@ -1,0 +1,31 @@
+.big{
+  z-index: 10;
+}
+.circle-big {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 12px solid #480e63;
+  background-color: #f1f1f1;
+  position: absolute;
+  left: calc(700px/2 - 150px);
+  top: calc(700px/2 - 150px);
+}
+
+.circle-middle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 12px solid #480e63;
+  background-color: #290148;
+  position: absolute;
+  left: calc(700px/2 - 100px);
+  top: calc(700px/2 - 100px);
+}
+.big:hover + .circles {
+  transform: rotate(360deg);
+}
+
+ .big:active + .circles {
+  transform: scale(0.8);
+} 

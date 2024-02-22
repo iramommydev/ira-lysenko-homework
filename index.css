@@ -10,6 +10,11 @@ h1 {
   margin-bottom: 20px;
   color: rgb(87, 36, 36);
 }
+li {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color: firebrick;
+}
 .sublist {
   margin-left: 55px;
 }
