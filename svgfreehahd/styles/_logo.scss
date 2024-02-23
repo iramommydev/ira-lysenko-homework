@@ -1,0 +1,12 @@
+.logo {
+  width: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  gap: 10px;
+  font-family: "Quicksand";
+
+  &.footer {
+    color: #ffffff;
+  }
+}

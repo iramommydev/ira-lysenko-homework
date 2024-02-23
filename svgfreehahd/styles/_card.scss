@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  gap: 30px;
+
+  &-text {
+    line-height: 28px;
+  }
+}
+.card .design {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid #e5eaf4;
+  height: 340px;
+  width: 370px;
+  padding: 40px;
+}
+.card .ecom {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid #e5eaf4;
+  height: 340px;
+  width: 370px;
+  padding: 40px;
+}
+.card .app {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid #e5eaf4;
+  height: 340px;
+  width: 370px;
+  padding: 40px;
+}

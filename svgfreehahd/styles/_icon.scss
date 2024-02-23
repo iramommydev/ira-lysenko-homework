@@ -1,0 +1,20 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+
+  &-frame {
+    width: 65px;
+    height: 65px;
+    border-radius: 16px;
+    border: 1px solid rgba($color: #1565d81a, $alpha: 0.1);
+    padding: 14px;
+    font-size: 36px;
+  }
+}
+.icon-twitter {
+  color: #3db370;
+}
