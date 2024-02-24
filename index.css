@@ -1,0 +1,22 @@
+body {
+  padding-left: 50px;
+  background-color: cadetblue;
+  color: rgb(139, 43, 43);
+}
+h1 {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 54px;
+}
+ul {
+  font-size: 24px;
+  line-height: 36px;
+  }
+a {
+  text-decoration: none ;
+  color: rgb(128, 68, 25);
+}
+.sublist {
+  padding-left: 30px;
+  font-size: 18px;
+}
