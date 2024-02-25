@@ -1,0 +1,79 @@
+.photo-paris {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  // position: relative;
+}
+.photo-city {
+  grid-row: 1 / 2;
+  grid-column: 2 / span 2;
+}
+.photo-patio {
+  grid-row: 2 /3;
+  grid-column: 1 / span 2;
+}
+.photo-milan {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+}
+.photo-sf {
+  grid-area: 3 / 1/ 4/ 2;
+}
+.photo-bridge {
+  grid-area: 3 / 2/ 4/ 4;
+}
+.element {
+  border-radius: 20px;
+}
+.photo-waterfall {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+.photo-ocean {
+  grid-row: 1 / 2;
+  grid-column: 2 / span 2;
+}
+.photo-stones {
+  grid-row: 2 / span 2;
+  grid-column: 1 / span 2;
+}
+.photo-lavanda {
+  grid-row: 3 / 4;
+  grid-column: 1 / span 2;
+}
+.photo-dress {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+.photo-sportsuit {
+  grid-row: 1 / span 2;
+  grid-column: 2 / 3;
+}
+.photo-beared {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+}
+.photo-sweater {
+  grid-row: 3 / span 2;
+  grid-column: 1 / 2;
+}
+.photo-curved {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+.photo-oranges {
+  grid-row: 2 / span 2;
+  grid-column: 3 / 4;
+}
+.photo-glasses {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.photo-friends {
+  grid-row: 4 / 5;
+  grid-column: 2 / span 2;
+}
+.photo-dreads {
+  grid-area: 5 / 1 / 6 / 3;
+}
+.element {
+  position: relative;
+}
