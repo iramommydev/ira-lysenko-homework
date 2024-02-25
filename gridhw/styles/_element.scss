@@ -1,0 +1,39 @@
+// blur
+.element {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.35s ease-in-out;
+}
+.element::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    360deg,
+    #241f24 0%,
+    rgba(91, 91, 91, 0.447552) 34.11%,
+    rgba(187, 186, 192, 0.26) 62.5%
+  );
+}
+
+// hover
+.element:hover:before {
+  background: linear-gradient(
+    360deg,
+    #241f24 1.04%,
+    rgba(91, 91, 91, 0.26) 6.99%,
+    rgba(187, 186, 192, 0) 12.29%
+  );
+  
+}
+.element:hover button {
+  display: block;
+  cursor: url(../assets/pointer.svg), auto;
+  
+}
+.element:hover img {
+transform: scale(1.1);
+}

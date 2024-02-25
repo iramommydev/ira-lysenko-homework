@@ -7,6 +7,7 @@
 img {
   width: 100%;
   border-radius: 20px;
+  transition: hover 0.35s ease-in-out;
    }
    
 h1 {
@@ -19,4 +20,12 @@ h1 {
 }
 a {
   font-size: 24px;
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
