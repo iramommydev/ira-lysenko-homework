@@ -1,4 +1,4 @@
-.big{
+.big {
   z-index: 10;
 }
 .circle-big {
@@ -8,8 +8,8 @@
   border: 12px solid #480e63;
   background-color: #f1f1f1;
   position: absolute;
-  left: calc(700px/2 - 150px);
-  top: calc(700px/2 - 150px);
+  left: calc(700px / 2 - 150px);
+  top: calc(700px / 2 - 150px);
 }
 
 .circle-middle {
@@ -19,13 +19,13 @@
   border: 12px solid #480e63;
   background-color: #290148;
   position: absolute;
-  left: calc(700px/2 - 100px);
-  top: calc(700px/2 - 100px);
+  left: calc(700px / 2 - 100px);
+  top: calc(700px / 2 - 100px);
 }
-.big:hover + .circles {
+.big:hover + .elements {
   transform: rotate(360deg);
 }
 
- .big:active + .circles {
+.big:active + .elements {
   transform: scale(0.8);
-} 
+}
