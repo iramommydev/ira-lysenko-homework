@@ -1,0 +1,31 @@
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input {
+  border: 1px solid var(--c-border);
+  border-radius: 5px;
+  outline: none;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+input:focus {
+  border-color: var(--c-blue);
+}
+input[type="radio"] {
+  height: auto;
+}
+input[type="file"] {
+  display: none;
+}
+input:invalid {
+  border-color: var(--c-hover);
+}

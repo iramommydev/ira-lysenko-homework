@@ -1,0 +1,28 @@
+.button-file {
+  border: 1px solid var(--c-border);
+  position: relative;
+  width: 140px;
+  height: 30px;
+  border-radius: 5px;
+}
+.trash {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid var(--c-border);
+  background-color: var(--c-background);
+}
+.file {
+  display: flex;
+  gap: 10px;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}

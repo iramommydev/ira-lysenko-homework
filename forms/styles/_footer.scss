@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+.footer-policy {
+  max-width: 410px;
+  text-align: center;
+  color: var(--c-secondary);
+  font-size: 13px;
+}

@@ -1,0 +1,25 @@
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  border: none;
+  font: inherit;
+  outline: none;
+}
+
+.selector {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--c-border);
+  position: relative;
+  margin-top: 5px;
+  height: 40px;
+  padding: 10px;
+  transition: hover 0.35s ease-in-out;
+}
+
+.selector:hover {
+  color: var(--c-main);
+  border: 1px solid var(--c-blue);
+}

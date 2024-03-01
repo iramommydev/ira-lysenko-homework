@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- styles -->
+    <link rel="stylesheet" href="./index.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- icons -->
+    <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+      <symbol id="icon-On" viewBox="0 0 32 32">
+      <path fill="#007bff" style="fill: var(--color1, #007bff)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+      <path fill="#fff" style="fill: var(--color2, #fff)" d="M22.4 16c0 3.535-2.865 6.4-6.4 6.4s-6.4-2.865-6.4-6.4c0-3.535 2.865-6.4 6.4-6.4s6.4 2.865 6.4 6.4z"></path>
+      </symbol>
+      <symbol id="icon-photograph" viewBox="0 0 32 32">
+      <path d="M8.272 4.8l2.928-3.2h9.6l2.928 3.2h5.072c1.76 0 3.2 1.44 3.2 3.2v19.2c0 1.76-1.44 3.2-3.2 3.2h-25.6c-1.76 0-3.2-1.44-3.2-3.2v-19.2c0-1.76 1.44-3.2 3.2-3.2h5.072zM8 17.6c0 4.416 3.584 8 8 8s8-3.584 8-8c0-4.416-3.584-8-8-8s-8 3.584-8 8zM16 22.72c2.828 0 5.12-2.292 5.12-5.12s-2.292-5.12-5.12-5.12c-2.828 0-5.12 2.292-5.12 5.12s2.292 5.12 5.12 5.12z"></path>
+      </symbol>
+      <symbol id="icon-selector" viewBox="0 0 32 32">
+      <path d="M16 0l-12.444 12.444h24.889l-12.444-12.444zM16 32l-12.444-12.444h24.889l-12.444 12.444z"></path>
+      </symbol>
+      <symbol id="icon-trash" viewBox="0 0 32 32">
+      <path d="M5.333 28.445c0 1.955 1.6 3.555 3.556 3.555h14.222c1.956 0 3.556-1.6 3.556-3.555v-21.333h-21.333v21.333zM28.444 1.778h-6.222l-1.778-1.778h-8.889l-1.778 1.778h-6.222v3.556h24.889v-3.556z"></path>
+      </symbol>
+      </defs>
+      </svg>
+    <header>
+      <nav><a href="../index.html">Homepage</a></nav>
+    </header>
+    <div class="app">
+      <div class="blocks">
+        <!-- left block -->
+        <div class="blocks-account">
+          <h1>Create an Account</h1>
+          <form method="get">
+            <div class="name">
+              <label>
+                <div>First Name</div>
+                <input type="text" name="First Name" />
+                <div class="error"></div>
+              </label>
+              <label>
+                <div>Last Name</div>
+                <input type="text" name="Last Name" />
+                <div class="error"></div>
+              </label>
+            </div>
+            <label>
+              <div class="email">E-mail</div>
+              <input type="email" name="email" />
+              <div class="comment">
+                We'll never share your email with anyone else.
+              </div>
+            </label>
+            <!-- radio button -->
+            <div class="gender">
+              <label>
+                <span class="radio">Male</span>
+                <input type="radio" name="gender" value="male" hidden />
+                <span class="custom-radio"></span>
+              </label>
+              <label>
+                <span class="radio">Female</span>
+                <input type="radio" name="gender" value="female" hidden/>
+                <span class="custom-radio"></span>
+              </label>
+            </div>
+            <div class="location">
+              <label>
+                <div>Country</div>
+                <div class="selector">
+                <select name="country" >
+                  <option value="none" disabled selected>Select</option>
+                  <option value="Ukraine">Ukraine</option>
+                  <option value="Spain">Spain</option>
+                  <option value="Germany">Germany</option>
+                </select>
+                <svg class="icon icon-selector"><use xlink:href="#icon-selector"></use></svg>
+              </div>
+            </label>
+              <label>
+                <div>City</div>
+                <input type="text" name="city"/>
+              </label>
+            </div>
+            <!-- button -->
+            <div class="footer">
+            <button class="sign" type="submit">
+              <div>Sign up</div>
+            </button>
+            <p class="footer-policy">
+              By clicking the 'Sign Up' button, you confirm that you accept our
+              <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+            </p>
+            <div class="line"></div>
+            <div>Have an account? <a href="#">Log In</a></div>
+            </div>
+        </div>
+          </form>
+        <!-- right block -->
+        <div class="blocks-profile">
+          <h1>Profile</h1>
+          <!-- photo -->
+          <form method="get">
+          <div class="photo-block">
+          <div class="photo">
+            <img src="./assets/photo.png" alt="profile photo" />
+          </div>
+          <!-- input file -->
+          <div class="file">
+           <div class="add-file">
+            <label>
+              <div class="button-file">
+              <input type="file" />
+                <svg class="icon icon-photograph">
+                  <use xlink:href="#icon-photograph"></use>
+                </svg>
+              </div>
+            </label>
+            <div class="comment">Up to 1 MB (300x300 px)</div>
+            </div>
+            <button class="trash" type="reset">
+              <svg class="icon icon-trash">
+                <use xlink:href="#icon-trash"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+          <div class="profile-block">
+            <label>
+              <div>Name</div>
+              <div><input type="text" name="Name" /></div>
+              <div class="error"></div>
+            </label>
+            <label>
+              <div>E-mail</div>
+              <input type="email" />
+              <div class="error"></div>
+            </label>
+              <label>
+                <div>Country</div>
+                <div class="selector">
+                <select name="country" placeholder="Select" >
+                  <option value="none" disabled selected>Select</option>
+                  <option value="Ukraine">Ukraine</option>
+                  <option value="Spain">Spain</option>
+                  <option value="Germany">Germany</option>
+                </select>
+                <svg class="icon icon-selector"><use xlink:href="#icon-selector"></use></svg>
+              </div>
+            </label>
+              <label>
+                <div>City</div>
+                <input type="text" name="city"/>
+              </label>
+                <label>
+              <div>Zip Code</div>
+              <input type="number" name="code" />
+              <div class="error"></div>
+            </label>
+            <label>
+              <div>Phone Number</div>
+              <input type="number" name="phone" />
+              <div class="error"></div>
+            </label>
+          </div>
+          <!-- button -->
+          <button class="update" type="submit">
+            <div>Update</div>
+          </button></form>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
