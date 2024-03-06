@@ -1,4 +1,4 @@
-input[type="number"] {
+input[type='number'] {
   -moz-appearance: textfield;
 }
 input::-webkit-outer-spin-button,
@@ -20,12 +20,15 @@ input {
 input:focus {
   border-color: var(--c-blue);
 }
-input[type="radio"] {
+input[type='radio'] {
   height: auto;
 }
-input[type="file"] {
+input[type='file'] {
   display: none;
 }
 input:invalid {
   border-color: var(--c-hover);
+  & + .error {
+    opacity: 1;
+  }
 }
