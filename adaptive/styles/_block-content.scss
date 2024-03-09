@@ -1,0 +1,23 @@
+.block-content {
+  max-width: 450px;
+
+  &.subtitle {
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: var(--c-grey);
+  }
+  &.date {
+    font-size: 16px;
+    color: var(--c-grey);
+    margin-bottom: 50px;
+    margin-top: 15px;
+  }
+  &.text {
+    color: var(--c-grafit);
+    line-height: 26px;
+    letter-spacing: 5%;
+  }
+}
+.left {
+margin-left: auto;
+}

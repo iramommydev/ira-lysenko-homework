@@ -5,6 +5,9 @@
 }
 body {
   font-size: 14px;
+  background-color: white;
+  min-height: 100vh;
+  font-family: 'Lato';
 }
 /** titles */
 h1,
@@ -15,10 +18,34 @@ h5,
 h6 {
   margin-bottom: 0%;
   margin-top: 0%;
+  font-family: 'Red Hat Display';
 }
-img {
+img,
+svg {
   width: 100%;
 }
 ul {
   list-style: none;
+}
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1410px;
+  margin: 0 auto;
+  width: 100%;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+h3 {
+  font-size: 23px;
+  line-height: 38px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+span {
+  font-size: 16px;
+  color: var(--c-grey);
 }

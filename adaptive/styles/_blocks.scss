@@ -1,0 +1,33 @@
+.blocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 0 auto;
+}
+
+.block-first,
+.block-second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.text-block,
+.arrow-block,
+.build-block {
+  display: flex;
+  flex-basis: 50%;
+  align-items: center;
+}
+@media screen and (max-width: 700px) {
+  .block-first {
+    flex-direction: column-reverse;
+  }
+  .block-second {
+    flex-direction: column;
+  }
+  .blog {
+    text-align: center;
+   } 
+}

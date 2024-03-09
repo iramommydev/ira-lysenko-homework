@@ -1,0 +1,28 @@
+.navigation-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.navigation-item {
+  position: relative;
+}
+.border {
+  position: absolute;
+  width: 40px;
+  bottom: -5px;
+  left: 10%;
+  height: 1px;
+  background-color: black;
+}
+
+.navigation-link {
+  padding-bottom: 5px;
+  letter-spacing: 0.3em;
+  text-decoration: none;
+}

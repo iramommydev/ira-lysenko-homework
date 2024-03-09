@@ -1,0 +1,17 @@
+.burger {
+  width: 35px;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+
+  &-line {
+    width: 100%;
+    border: 1px solid #000;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .burger {
+    display:flex
+  }
+}
