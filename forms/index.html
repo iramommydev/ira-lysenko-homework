@@ -43,23 +43,23 @@
         <!-- left block -->
         <div class="blocks-account">
           <h1>Create an Account</h1>
-          <form method="get">
+          <form method="post" id="js-form">
             <div class="name">
               <label>
                 <div>First Name</div>
                 <input required type="text" name="First Name" />
-                <div class="error">This field is reguired</div>
+                <div class="error"></div>
               </label>
               <label>
                 <div>Last Name</div>
                 <input required type="text" name="Last Name" />
-                <div class="error">This field is reguired</div>
+                <div class="error"></div>
               </label>
             </div>
             <label>
               <div class="email">E-mail</div>
               <input required type="email" name="email" />
-              <div class="error">This field is reguired</div>
+              <div class="error"></div>
               <div class="comment">
                 We'll never share your email with anyone else.
               </div>
@@ -113,68 +113,68 @@
         <div class="blocks-profile">
           <h1>Profile</h1>
           <!-- photo -->
-          <form method="get">
-          <div class="photo-block">
-          <div class="photo">
-            <img src="./assets/photo.png" alt="profile photo" />
-          </div>
-          <!-- input required file -->
-          <div class="file">
-           <div class="add-file">
-            <label>
-              <div class="button-file">
-              <input required type="file" />
-                <svg class="icon icon-photograph">
-                  <use xlink:href="#icon-photograph"></use>
-                </svg>
+          <form method="post" id="js-form">
+            <div class="photo-block">
+              <div class="photo">
+                <img src="./assets/photo.png" alt="profile photo" />
               </div>
-            </label>
-            <div class="comment">Up to 1 MB (300x300 px)</div>
+          <!-- input required file -->
+              <div class="file">
+              <div class="add-file">
+                <label>
+                  <div class="button-file">
+                  <input required type="file" />
+                    <svg class="icon icon-photograph">
+                      <use xlink:href="#icon-photograph"></use>
+                    </svg>
+                  </div>
+                </label>
+                <div class="comment">Up to 1 MB (300x300 px)</div>
+                </div>
+                <button class="trash" type="reset">
+                  <svg class="icon icon-trash">
+                    <use xlink:href="#icon-trash"></use>
+                  </svg>
+                </button>
+              </div>
             </div>
-            <button class="trash" type="reset">
-              <svg class="icon icon-trash">
-                <use xlink:href="#icon-trash"></use>
-              </svg>
-            </button>
-          </div>
-        </div>
           <div class="profile-block">
             <label>
               <div>Name</div>
-              <div><input required type="text" name="Name" /></div>
-              <div class="error">This field is reguired</div>
+                <div><input required type="text" name="Name" /></div>
+                <div class="error"></div>
             </label>
             <label>
               <div>E-mail</div>
               <input required type="email" />
-              <div class="error">This field is reguired</div>
+              <div class="error"></div>
             </label>
               <label>
                 <div>Country</div>
-                <div class="selector">
-                <select name="country" placeholder="Select" >
-                  <option value="none" disabled selected>Select</option>
-                  <option value="Ukraine">Ukraine</option>
-                  <option value="Spain">Spain</option>
-                  <option value="Germany">Germany</option>
-                </select>
-                <svg class="icon icon-selector"><use xlink:href="#icon-selector"></use></svg>
-              </div>
-            </label>
+                  <div class="selector">
+                    <select name="country" placeholder="Select" >
+                      <option value="none" disabled selected>Select</option>
+                      <option value="Ukraine">Ukraine</option>
+                      <option value="Spain">Spain</option>
+                      <option value="Germany">Germany</option>
+                    </select>
+                    <svg class="icon icon-selector"><use xlink:href="#icon-selector"></use></svg>
+                  </div>
+              </label>
               <label>
                 <div>City</div>
-                <input required type="text" name="city"/>
+                 <input required type="text" name="city"/>
               </label>
-                <label>
-              <div>Zip Code</div>
-              <input required type="number" name="code" />
-              <div class="error">This field is reguired</div>
-            </label>
-            <label>
-              <div>Phone Number</div>
-              <input required type="number" name="phone" />
-              <div class="error">This field is reguired</div>
-            </label>
+              <label>
+                <div>Zip Code</div>
+                  <input required type="number" name="code" />
+                  <div class="error"></div>
+              </label>
+              <label>
+                <div>Phone Number</div>
+                 <input required type="number" name="phone" />
+                 <div class="error"></div>
+              </label>
           </div>
           <!-- button -->
           <button class="update" type="submit">
@@ -184,5 +184,6 @@
       </div>
       </div>
     </div>
+  <script type="module" defer src="./index.js"></script>
   </body>
 </html>
