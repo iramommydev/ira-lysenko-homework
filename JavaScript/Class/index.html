@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./index.css" /> -->
+    <title>Async</title>
+  </head>
+  <body>
+    <nav>
+      <a href="../../index.html">Homepage</a>
+    </nav>
+    <h1>Async</h1>
+    <div class="app">
+      <div class="content">
+        <form method="get" id="filmSearch">
+          <input type="text" id="title" placeholder="Назва фільму" required />
+          <select id="type">
+            <option value="movie">Фільм</option>
+            <option value="series">Серіал</option>
+            <option value="episode">Епізод</option>
+          </select>
+          <button type="submit">Пошук</button>
+        </form>
+        <div id="results"></div>
+        <div id="pagination"></div>
+      </div>
+    </div>
+    <script type="module" defer src="./index.js"></script>
+  </body>
+</html>
