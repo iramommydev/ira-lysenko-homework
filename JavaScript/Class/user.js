@@ -83,4 +83,4 @@ class Admin extends User {
 //   } else console.log('Некоректно введена роль: ' + role);
 // }
 
-export { User, Admin, signUp };
+export { User, Admin};
