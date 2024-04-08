@@ -1,0 +1,14 @@
+.navigationList{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  text-transform: uppercase;
+}
+
+.navigationLink {
+  padding-bottom: 5px;
+  letter-spacing: 0.3em;
+  text-decoration: none;
+  color: black;
+}
