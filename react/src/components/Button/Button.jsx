@@ -1,11 +1,15 @@
 import { useState } from 'react';
+// * Styles
 import mainStyles from '../../styles/main.module.css';
 import buttonImage from '../../assets/search.svg';
 
 const Button = () => {
   const [showInput, setShowInput] = useState(false);
   const toggleInput = () => {
-    setShowInput(!showInput);
+    if (showInput) setShowInput(false);
+    else {
+      setShowInput(true);
+    }
   };
 
   return (

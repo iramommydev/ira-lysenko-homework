@@ -1,21 +1,23 @@
+// * Styles
 import styles from './Navbar.module.css';
 
 const Navbar = () => {
-const navigationLinks = [
-  { title: 'about', id: 1 },
-  { title: 'works', id: 2 },
-  { title: 'blog', id: 3 },
-  { title: 'contact', id: 4 },
-];
-const listItems = navigationLinks.map(link => 
-<li className= 'navigationItem' key={link.id}>
-  {link.title}
-</li>
-);
+  const links = [
+    { title: 'about', id: 1 },
+    { title: 'works', id: 2 },
+    { title: 'blog', id: 3 },
+    { title: 'contact', id: 4 },
+  ];
 
-return (
-  <ul className={styles.navigationList}>{listItems}</ul>
-);
+  return (
+    <ul className={styles.list}>
+      {links.map((link) => (
+        <li className="Item" key={link.id}>
+          {link.title}
+        </li>
+      ))}
+    </ul>
+  );
 };
 
 export default Navbar;

@@ -3,7 +3,7 @@
   background-color: var(--c-white);
   color: var(--c-black);
 }
-.wrapper-header {
+.wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;

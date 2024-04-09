@@ -1,9 +1,8 @@
+// * Styles
 import styles from './Logo.module.css';
 
-const LOGO = 'put an image here';
-const Logo= () => {
- 
-  return  <div className={styles.logo}>{LOGO}</div>
-}
+const Logo = () => {
+  return <div className={styles.logo}>{'put an image here'}</div>;
+};
 
-export default Logo
+export default Logo;
