@@ -1,24 +1,48 @@
-import { useState } from 'react';
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
+// * Base
+import cn from 'classnames';
 // * Styles
-import mainStyles from '../../styles/main.module.css';
-import buttonImage from '../../assets/search.svg';
+import styles from './Button.module.css';
 
-const Button = () => {
-  const [showInput, setShowInput] = useState(false);
-  const toggleInput = () => {
-    if (showInput) setShowInput(false);
-    else {
-      setShowInput(true);
+const Button = ({
+  text,
+  type = 'button',
+  color = 'default',
+  href = '',
+  onClick,
+}) => {
+  const styleList = [styles.button];
+  switch (color) {
+    case 'lightblue': {
+      styleList.push(styles.lightblue);
+      break;
     }
-  };
-
+    case 'grey': {
+      styleList.push(styles.grey);
+      break;
+    }
+  }
+  if (href)
+    return (
+      <Link
+        text={text}
+        href={href}
+        onClick={onClick}
+        styleList={styleList}
+      ></Link>
+    );
   return (
-    <div className={mainStyles.buttons} onClick={toggleInput}>
-      <img src={buttonImage} alt="Search" />
-      {showInput && (
-        <input type="text" placeholder="Введіть текст для пошуку..." />
-      )}
-    </div>
+    <button type={type} className={cn(styleList)} onClick={onClick}>
+      <span>{text}</span>
+    </button>
+  );
+};
+const Link = ({ text, href, onClick, styleList }) => {
+  return (
+    <a target='_blank' href={href} onClick={onClick} className={cn(styleList)}>
+      <span>{text}</span>
+    </a>
   );
 };
 

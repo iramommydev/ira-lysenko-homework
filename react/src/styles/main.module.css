@@ -11,4 +11,7 @@
     flex-direction: row;
     gap: 40px;
   }
+  input {
+    border-color: blue;
+  }
   

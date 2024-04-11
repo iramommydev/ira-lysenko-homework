@@ -1,22 +1,22 @@
 // * Styles
-import mainStyles from '../../styles/main.module.css';
 import styles from './Header.module.css';
 // * Components
 import Navbar from '../Navbar/Navbar';
 import Logo from '../Logo/Logo';
-import Button from '../Button/Button';
+import Wrapper from '../Wrapper/Wrapper';
+import Search from '../Search/Search';
 
 const Header = () => {
   return (
-    <div className={mainStyles.wrapper}>
-      <header className={styles.header}>
+    <header className={styles.header}>
+      <Wrapper>
         <div className={styles.wrapper}>
           <Logo></Logo>
           <Navbar></Navbar>
-          <Button></Button>
+          <Search></Search>
         </div>
-      </header>
-    </div>
+      </Wrapper>
+    </header>
   );
 };
 
