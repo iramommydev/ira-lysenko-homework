@@ -22,15 +22,13 @@ const Button = ({
       styleList.push(styles.grey);
       break;
     }
+    default: {
+      console.log('set the button');
+    }
   }
   if (href)
     return (
-      <Link
-        text={text}
-        href={href}
-        onClick={onClick}
-        styleList={styleList}
-      ></Link>
+      <Link text={text} href={href} onClick={onClick} styleList={styleList} />
     );
   return (
     <button type={type} className={cn(styleList)} onClick={onClick}>

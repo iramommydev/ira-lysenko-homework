@@ -1,7 +1,7 @@
 // * Styles
 import styles from './Header.module.css';
 // * Components
-import Navbar from '../Navbar/Navbar';
+import Navigation from '../Navigation/Navigation';
 import Logo from '../Logo/Logo';
 import Wrapper from '../Wrapper/Wrapper';
 import Search from '../Search/Search';
@@ -11,9 +11,9 @@ const Header = () => {
     <header className={styles.header}>
       <Wrapper>
         <div className={styles.wrapper}>
-          <Logo></Logo>
-          <Navbar></Navbar>
-          <Search></Search>
+          <Logo />
+          <Navigation />
+          <Search />
         </div>
       </Wrapper>
     </header>
