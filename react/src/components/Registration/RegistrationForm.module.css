@@ -1,0 +1,7 @@
+.form {
+  margin: 0, auto;
+  padding: 15px;
+  border: 1px solid var(--c-lightblue);
+  width: 100%;
+  max-width: 500px;
+}

@@ -5,6 +5,7 @@ import Navigation from '../Navigation/Navigation';
 import Logo from '../Logo/Logo';
 import Wrapper from '../Wrapper/Wrapper';
 import Search from '../Search/Search';
+// import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (

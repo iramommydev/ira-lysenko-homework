@@ -6,11 +6,12 @@ import cn from 'classnames';
 import styles from './Button.module.css';
 
 const Button = ({
-  text,
+  text = 'Default text',
   type = 'button',
   color = 'default',
   href = '',
   onClick,
+  disabled = false,
 }) => {
   const styleList = [styles.button];
   switch (color) {
@@ -31,7 +32,12 @@ const Button = ({
       <Link text={text} href={href} onClick={onClick} styleList={styleList} />
     );
   return (
-    <button type={type} className={cn(styleList)} onClick={onClick}>
+    <button
+      type={type}
+      className={cn(styleList)}
+      onClick={onClick}
+      disabled={disabled}
+    >
       <span>{text}</span>
     </button>
   );

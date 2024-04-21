@@ -1,8 +1,8 @@
-const LINKS = [
-  { title: 'about', id: 1 },
-  { title: 'works', id: 2 },
-  { title: 'blog', id: 3 },
-  { title: 'contact', id: 4 },
+const LIST = [
+  { title: 'About', to: '/about' },
+  { title: 'Works', to: '/works' },
+  { title: 'Registration', to: '/registration' },
+  { title: 'Contacts', to: '/contacts' },
 ];
 
-export default LINKS;
+export default LIST;

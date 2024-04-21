@@ -2,9 +2,9 @@
 // * Base
 import { useCallback, useEffect, useState } from 'react';
 import axios from 'axios';
-// *Styles
+// * Styles
 import styles from './List.module.css';
-// *Components
+// * Components
 import Button from '../Button/Button';
 
 const List = () => {
@@ -19,21 +19,18 @@ const List = () => {
     axios
       .get('https://jsonplaceholder.typicode.com/posts')
       .then(({ data }) => {
+        console.log(data);
         setState((prevState) => ({
           ...prevState,
-          error: true,
           list: data,
+          loading: false,
+          error: '',
         }));
       })
       .catch(() => {
         setState((prevState) => ({
           ...prevState,
           error: 'data loading error',
-        }));
-      })
-      .finally(() => {
-        setState((prevState) => ({
-          ...prevState,
           loading: false,
         }));
       });

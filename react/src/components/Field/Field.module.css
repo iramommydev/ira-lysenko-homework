@@ -1,0 +1,10 @@
+.label {
+display: block;
+}
+
+.error {
+  color: var(--c-red);
+  font-size: 10px;
+  line-height: 1;
+  height: 20px;
+}
